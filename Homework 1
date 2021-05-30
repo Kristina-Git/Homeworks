@@ -1,0 +1,46 @@
+//Homework 01
+//1. For all the primitive types - Declare variables. Assign values on the variables.
+//2. Print the values of the variables.
+//string ''
+//number 12
+//boolean true/false
+//undefined
+//null 
+
+let favouriteFood = 'Pizza';
+let numberOfSlices= 4
+let ItsRainingOutside = 'false';
+let lastName 
+let favouriteColor=null;
+
+console.log(favouriteFood);
+console.log(numberOfSlices);
+console.log(ItsRainingOutside);
+console.log(lastName);
+console.log(favouriteColor);
+
+//Create a constant. Assign value to the constant. 
+//Try to assign another value to the constant. What happens?
+
+const rate = 2.5;
+//rate = 3.5;
+console.log(rate); // cannot change a primitive value.
+
+//6. For all the reference types - Declare variables. Assign values on the variables.
+//7. Print the values of the variables.
+//8. Print the type of the variables.
+let typesOfanimals1 = {
+    amphibians:'frogs',
+    birds:'parrots'
+}
+let typesOfanimals2 = {
+    fish:'eel',
+    mamals:'elephant'
+}
+
+let animals=[typesOfanimals1,typesOfanimals2];
+console.log(animals);
+
+console.log(typeof typesOfanimals1);
+console.log(typeof typesOfanimals2); 
+console.log(typeof animals); //the type is object
